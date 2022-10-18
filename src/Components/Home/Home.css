@@ -1,0 +1,173 @@
+.headings {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 80px;
+}
+
+/* Welcome to */
+.h-top {
+  position: absolute;
+  width: auto;
+  height: 80px;
+  top: 157px;
+  left: 537px;
+
+  font-family: "Komika-Axis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 80px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.h-second {
+  position: absolute;
+  width: auto;
+  height: 80px;
+  top: 253px;
+  left: 460px;
+  font-family: "Komika-Axis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 80px;
+  margin-top: 16px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  background: linear-gradient(
+    90.3deg,
+    #ff0000 0.26%,
+    #ffa800 40.7%,
+    #ffd600 73.88%,
+    #ff3333 99.81%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.headings > p {
+  display: flex;
+  justify-self: center;
+  position: absolute;
+  width: 498px;
+  height: 23px;
+  top: 343px;
+  left: 447.5px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  margin-top: 10px;
+}
+
+.h-location {
+  display: flex;
+  justify-self: center;
+  position: absolute;
+  top: 443px;
+  left: 390.98px;
+  width: 600px;
+  height: 46px;
+  margin-top: -40px;
+  border-radius: 30px;
+  border: 5px solid #000;
+  background: none;
+}
+
+.h-search {
+  position: absolute;
+  right: 352.5px;
+  top: 410.4px;
+  width: 48px;
+  height: 45.6px;
+  background: #ffa800;
+  border: 2px solid #000000;
+  border-radius: 64px;
+  border-radius: 100%;
+}
+
+::placeholder {
+  position: absolute;
+  width: auto;
+  height: 16px;
+  left: 64.91px;
+  top: 20px;
+  align-self: center;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.kolade {
+  position: absolute;
+  left: 0.26px;
+  top: 480.37px;
+}
+
+.michael {
+  position: absolute;
+  left: 494.1px;
+  top: 642.67px;
+  transform: rotate(15deg);
+}
+
+.smd {
+  position: absolute;
+  left: 527.28px;
+  top: 610.99px;
+  transform: rotate(15deg);
+}
+
+.meep {
+  position: absolute;
+  top: 510.51px;
+  left: 580.96px;
+  transform: rotate(15deg);
+}
+
+.melp {
+  position: absolute;
+  transform: rotate(20deg);
+  left: 590.39px;
+  top: 515.26px;
+  z-index: 1;
+  background: none;
+}
+
+.pdp {
+  position: absolute;
+  left: 72%;
+  right: 0%;
+  top: 45%;
+  bottom: 0%;
+}
+
+.ropes {
+  position: absolute;
+  left: 415.74px;
+  right: 15.62%;
+  top: 416px;
+  bottom: 6.25%;
+}
+
+.pro {
+  position: absolute;
+  left: 25%;
+  right: 24.99%;
+  top: 25.62%;
+  bottom: 30.62%;
+}

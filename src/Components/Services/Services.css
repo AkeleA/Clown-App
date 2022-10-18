@@ -1,0 +1,291 @@
+.serv-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sn-left {
+  position: absolute;
+  top: 34px;
+  transform: scale(1.2);
+
+  width: 48px;
+  height: 26px;
+
+  font-family: "Bouncy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: -0.145em;
+
+  background: linear-gradient(
+    89.66deg,
+    #ff0101 0.29%,
+    #ff7b01 28.27%,
+    #fff501 65.56%,
+    #ff0101 99.75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sn-location {
+  position: absolute;
+  justify-self: center;
+  top: 25px;
+  left: 485px;
+  width: 400px;
+  height: 30px;
+  border-radius: 30px;
+  border: 5px solid #000;
+  background: none;
+  overflow: hidden;
+  align-items: center;
+}
+
+::placeholder {
+  position: absolute;
+  width: 190px;
+  height: 19px;
+  left: 67.91px;
+  top: 12px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.sn-right {
+  position: absolute;
+  right: 56px;
+  top: 34px;
+  width: 37px;
+  height: 28px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  color: #000000;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.serv-main {
+  display: flex;
+  gap: 1em;
+  margin-top: 168.44px;
+}
+div.container {
+  box-sizing: border-box;
+  width: 304px;
+  height: 398.33px;
+  position: relative;
+  background: #ffd600;
+  border: 2px solid #000000;
+  border-radius: 0px 0px 0px 40px;
+}
+
+div.container > * {
+  position: absolute;
+}
+
+.container > span {
+  box-sizing: border-box;
+  width: 105.4px;
+  height: 32.59px;
+  left: -1px;
+  top: -1px;
+  z-index: 1;
+  background: #a2febc;
+  border: 1px solid #000000;
+}
+
+#tp-rate {
+  position: relative;
+  top: -8px;
+  left: 12.7px;
+  width: 80px;
+  height: 16px;
+
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+  z-index: 1;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.container > img {
+  width: 264px;
+  height: 280px;
+  left: 17px;
+  top: 19.56px;
+  border-radius: 4px;
+}
+
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+  top: 303.56px;
+  left: 20px;
+  right: 90.68px;
+  bottom: 67.77px;
+}
+
+.bottom-left > b {
+  width: 193.32px;
+  height: 27px;
+  font-family: "Komika-Axis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.bottom-left > p {
+  width: 185.6px;
+  height: 16px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 8px;
+}
+
+.bottom-right {
+  display: flex;
+  flex-direction: column;
+  left: 230px;
+  top: 309.5px;
+  right: 90.68px;
+  bottom: 67.77px;
+  max-width: 63.83px;
+}
+
+.bottom-right > .price {
+  width: 54px;
+  height: 25px;
+
+  font-family: "Sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+}
+
+.bottom-right > .rating {
+  width: 63.83px;
+  height: 14px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+div.serv-map-container {
+  position: relative;
+  bottom: 85.93px;
+  margin-top: 300px;
+  width: 100%;
+  height: 592.51px;
+  background: #fff2da;
+  border: 4px solid #acd5d0;
+  border-radius: 48px;
+}
+
+img.maps {
+  width: 98.5%;
+  height: 583.58px;
+}
+
+.s-logo {
+  position: absolute;
+  width: 154.02px;
+  height: 27px;
+  left: 44.02px;
+  top: 28.77px;
+  font-family: "Komika Axis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  background: -webkit-linear-gradient(
+    90deg,
+    #ff0000 -0.47%,
+    #ffb800 22.96%,
+    #c8ffa6 44.69%,
+    #ff0000 64.73%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*-webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;*/
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img.wat {
+  position: absolute;
+  width: 76.07%;
+  height: 592.51px;
+  left: 21.78%;
+  top: 0px;
+  overflow: hidden;
+}
+
+img.lands {
+  position: absolute;
+  width: 55.62%;
+  height: 136.72px;
+  left: 0px;
+  top: 272.49px;
+}
+
+/*
+.faux-cont {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  left: 60px;
+  top: 950px;
+  z-index: -1;
+  background: #000000;
+  border-radius: 48px;
+}*/

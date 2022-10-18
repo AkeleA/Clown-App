@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background: var(--ugly);
+}
+
+@font-face {
+  font-family: "Bouncy";
+  src: local("Bouncy"),
+    url("../src/fonts/Bouncy/Bouncy-PERSONAL_USE_ONLY.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Iceland;
+  src: local("Iceland"), url("../src/fonts/Iceland/Iceland-Regular.ttf");
+}
+
+@font-face {
+  font-family: Komika-Axis;
+  src: local("Komika-Axis"), url("../src/fonts/Komika-Axis/KOMIKAX_.ttf");
+}

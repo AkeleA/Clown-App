@@ -1,0 +1,425 @@
+div.top {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tt-left {
+  position: absolute;
+  width: 48px;
+  height: 26px;
+  left: 86.77px;
+  top: 35px;
+  font-family: "Bouncy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.145em;
+  background: linear-gradient(
+    89.66deg,
+    #ff0101 0.29%,
+    #ff7b01 28.27%,
+    #fff501 65.56%,
+    #ff0101 99.75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-border: 2px solid #000000;
+}
+
+.tt-right {
+  position: absolute;
+  top: 34px;
+  left: 1175px;
+  width: 37px;
+  height: 28px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.curv-cont {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 1185.28px;
+  height: 337.43px;
+  left: 86.77px;
+  top: 93.2px;
+  background: #ffd788;
+  border: 4px solid #000000;
+  border-radius: 4px 4px 4px 40px;
+}
+
+.cc-img {
+  position: absolute;
+  z-index: 2;
+  width: 192px;
+  height: 202px;
+  left: 89.44px;
+  top: 64.8px;
+  border-radius: 2.8953px 2.8953px 2.8953px 26.0577px;
+  /*overflow: hidden;*/
+}
+
+.tt-rat {
+  box-sizing: border-box;
+  position: absolute;
+  width: 105.4px;
+  height: 32.59px;
+  left: 89.44px;
+  z-index: 3;
+  top: 65.13px;
+  background: #a2febc;
+  border: 1px solid #000000;
+}
+
+.cc-imh {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 194px;
+  left: 85.82px;
+  top: 76px;
+  background: #ffffff;
+  border-radius: 0px 0px 0px 28.953px;
+}
+.tt-rat > p {
+  position: absolute;
+  bottom: -8.39px;
+  left: 30px;
+  width: 80px;
+  height: 16px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.textbox > h3 {
+  width: 193.32px;
+  height: 27px;
+  position: absolute;
+  left: 295px;
+  z-index: 2;
+  top: 42px;
+  font-family: "Komika-Axis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    90deg,
+    #ff0000 -0.47%,
+    #ffb800 22.96%,
+    #c8ffa6 44.69%,
+    #ff0000 64.73%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px solid;
+  -webkit-text-stroke-color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.rate {
+  width: 54px;
+  height: 25px;
+  position: absolute;
+  font-family: "Halant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  left: 295px;
+  top: 93px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.t-up {
+  width: 194.3px;
+  height: 19px;
+  position: absolute;
+  left: 295px;
+  top: 134px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.t-clown {
+  box-sizing: border-box;
+  position: absolute;
+  width: 152.16px;
+  height: 40px;
+  left: 295px;
+  z-index: 2;
+  top: 215.01px;
+  background: #ffb800;
+  border: 1px solid #000000;
+  border-radius: 0px 0px 0px 12px;
+}
+
+.t-clown > span {
+  position: absolute;
+  align-self: center;
+  width: 68px;
+  height: 28px;
+  left: 43.58px;
+  top: 6.21px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.butshad {
+  position: absolute;
+  width: 152px;
+  height: 42.21px;
+  left: 298.48px;
+  top: 217px;
+  z-index: 1;
+  background: #000000;
+  border-radius: 0px 0px 0px 12px;
+}
+
+.bio-container {
+  box-sizing: border-box;
+  position: absolute;
+  width: 648px;
+  height: 238.56px;
+  left: 470px;
+  top: 49.44px;
+  background: #aaffa8;
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.bio-head {
+  position: absolute;
+  width: 80px;
+  height: 28px;
+  left: 20px;
+  top: 0px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: 0.05em;
+  color: #ffa800;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.bio-text {
+  position: absolute;
+  width: 612.47px;
+  height: 173.8px;
+  left: 18.9px;
+  top: 52px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  color: #000000;
+}
+
+hr {
+  position: absolute;
+  width: 1185px;
+  height: 4px;
+  background: #000000;
+  border: none;
+  border-radius: 12px;
+  top: 454.8px;
+  left: 86.77px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.img-container {
+  width: 1185.28px;
+  height: 690px;
+}
+.Ta1 {
+  position: absolute;
+  width: 437px;
+  height: 690px;
+  left: 86.77px;
+  top: 483.48px;
+}
+
+.Ta2 {
+  position: absolute;
+  width: 724.89px;
+  height: 690px;
+  left: 345px;
+  top: 483.48px;
+}
+
+.Ta3 {
+  position: absolute;
+  width: 517.5px;
+  height: 690px;
+  top: 483.48px;
+  right: 75px;
+}
+
+hr.sep {
+  width: 1185.28px;
+  top: 1197.55px;
+  left: 86.77px;
+  height: 4px;
+  background: #000000;
+  border-radius: 12px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.c-reviews {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1185.28px;
+  height: 318.13px;
+  left: 86.77px;
+  top: 1225.55px;
+  background: #ffd788;
+  border: 4px solid #000000;
+  border-radius: 4px 4px 4px 40px;
+}
+
+.t-rev {
+  position: absolute;
+  width: 88px;
+  height: 19px;
+  left: 1076.56px;
+  top: 44.83px;
+
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.c-reviews > h3 {
+  position: absolute;
+  width: 167px;
+  height: 28px;
+  left: 36.14px;
+  top: 40.33px;
+  font-family: "Komika-Axis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  background: linear-gradient(
+    90deg,
+    #ff0000 -1.01%,
+    #ffb800 39.45%,
+    #ff0000 108.41%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px solid #000000;
+}
+
+.rev-left > img {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 108.68px;
+  left: 36.14px;
+}
+
+.rev-name {
+  position: absolute;
+  width: 168.15px;
+  height: 28px;
+  left: 108.41px;
+  top: 108.33px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #aaffa8;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+div.rev-right {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 759px;
+  height: 63.96px;
+  left: 280.19px;
+  top: 108.33px;
+
+  background: #aaffa8;
+  border: 3px solid #000000;
+  border-radius: 4px 4px 12px 4px;
+}
+span.textin {
+  position: absolute;
+  width: 321px;
+  height: 28px;
+  left: 18.67px;
+  top: 18.67px;
+
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  color: #000000;
+}

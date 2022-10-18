@@ -1,0 +1,111 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: column;
+  gap: 7.75px;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  left: 500px;
+}
+
+.n-name {
+  position: absolute;
+  top: 34px;
+  font-family: "Bouncy";
+  height: 26px;
+  left: 100px;
+  width: 48px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.145em;
+  background: linear-gradient(
+    89.66deg,
+    #ff0101 0.29%,
+    #ff7b01 28.27%,
+    #fff501 65.56%,
+    #ff0101 99.75%
+  );
+  background-color: -webkit-linear-gradient(
+    89.66deg,
+    #ff0101 0.29%,
+    #ff7b01 28.27%,
+    #fff501 65.56%,
+    #ff0101 99.75%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.nav-left > span {
+  position: absolute;
+  width: 49px;
+  height: 26px;
+  left: 101px;
+  top: 67.75px;
+
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 129.3%;
+  /* identical to box height, or 26px */
+
+  color: #000000;
+}
+
+.log {
+  position: absolute;
+  top: 43.75px;
+  left: 1000px;
+  width: 50px;
+  height: 26px;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 129.3%;
+  /* identical to box height, or 26px */
+  color: #000000;
+  /* Inside auto layout */
+}
+
+.n-signup {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 99.15px;
+  height: 40px;
+  right: 99.85px;
+  top: 32.21px;
+
+  background: #ffb800;
+  border: 1px solid #000000;
+  border-radius: 0px 0px 0px 12px;
+}
+
+button > span {
+  position: absolute;
+  width: 67px;
+  height: 28px;
+  left: 17px;
+  top: 6.21px;
+
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  color: #000000;
+}
